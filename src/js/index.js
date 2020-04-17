@@ -1,1 +1,1 @@
-console.log('Hello world! Parcel - The app!');
+console.log('Hello world! Parcel - The app');
