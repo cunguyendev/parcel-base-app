@@ -11,13 +11,6 @@
 npm/yarn install -g parcel-bundler
 ```
 
-### Clone this repository
-```
-git clone git@gitlab.com:g-codehub/parcel-base-app.git
-```
-
-- You can update the source structures to follow your patterns.
-
 ### Install packages
 
 At your directory root, run:
@@ -36,4 +29,5 @@ Open on web: http://localhost:1234 (this is by default, you can custom it)
 ```
 npm run build
 ```
+*You can update the source structures to follow your patterns.*
 *Note: Live-reload is supported*
