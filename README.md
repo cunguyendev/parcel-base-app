@@ -36,7 +36,7 @@ Open on web: http://localhost:1234 (this is by default, you can custom it)
 ### Build
 
 ```
-npm run build
+npm/yarn run build
 ```
 
 _You can update the source structures to follow your patterns._
