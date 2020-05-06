@@ -40,4 +40,5 @@ npm/yarn run build
 ```
 
 _You can update the source structures to follow your patterns._
+
 _Note: Live-reload is supported_
