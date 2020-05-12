@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "rm -rf dist && rm -rf .cache && parcel index.html --no-cache --no-source-maps",
-    "build": "rm -rf build && rm -rf .cache && parcel build index.html --no-cache --no-source-maps --out-dir build/",
+    "start": "rm -rf dist && rm -rf .cache && parcel src/index.html --no-cache --no-source-maps",
+    "build": "rm -rf build && rm -rf .cache && parcel build src/index.html --no-cache --no-source-maps --out-dir build/",
     "reset": "rm -rf build && rm -rf .cache && rm -rf dist && rm -rf node_modules"
   },
   "keywords": [],
