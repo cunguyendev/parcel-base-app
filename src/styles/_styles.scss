@@ -1,0 +1,48 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+
+  @include sm {
+    max-width: 400px;
+  }
+}
+
+.btn {
+  padding: 7px 10px;
+  margin-left: 15px;
+}
+
+.App {
+  &__heading {
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+
+  &__control {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-bottom: 5px;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+
+    input {
+      padding: 7px 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

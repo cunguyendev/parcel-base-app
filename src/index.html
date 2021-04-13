@@ -3,17 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parcel - The app</title>
+    <title>API Generator</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
   <body>
-    <div class="app">
-      <div class="app__content">
-        <img class="app__content__image" src="./assets/images/google.gif" alt="Gooogle">
+    <div class="App">
+      <div class="container">
+        <div class="App__content">
+          <div class="App__heading">
+            <h1>Data Generator</h1>
+          </div>
+
+          <div class="App__control">
+            <label>API/Data collection</label>
+            <input id="api" type="text" placeholder="Input the api..." />
+          </div>
+
+          <div class="App__control">
+            <label>Number records</label>
+            <input
+              id="record"
+              type="number"
+              placeholder="Input the records..."
+            />
+          </div>
+
+          <div class="App__control">
+            <label>Status</label>
+            <p data-type="progress">No any tasks handling...</p>
+            <p data-type="adding"></p>
+          </div>
+
+          <div class="App__actions">
+            <button data-type="demo" class="btn">Demo</button>
+            <button data-type="start" class="btn">Start</button>
+            <button data-type="clear" class="btn">Clear</button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
 
+  <script src="https://magician-helpers.netlify.app/index.js"></script>
   <script src="./scripts/index.js"></script>
 </html>
