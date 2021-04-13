@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
   try {
     const dataSaved = JSON.parse(localStorage.getItem(DATA_LOCAL_NAME));
 
-    if (dataSaved.api && dataSaved.record) {
+    if (dataSaved && dataSaved.api && dataSaved.record) {
       inputApi.value = dataSaved.api;
       inputRecord.value = dataSaved.record;
     }
