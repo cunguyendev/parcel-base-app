@@ -67,7 +67,7 @@ class Handling {
                         'Sport',
                         'Leisure',
                         'Life',
-                        'Aducation',
+                        'Education',
                         'Tourism',
                         'Vehicle',
                       ];
